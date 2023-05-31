@@ -10,10 +10,10 @@ On peut passer ses données dans l'algo via la méthode `dispatch`
 
 #### Paramètres de configuration
 
-`teamCount` : <\int> Nombre d'équipes désiré (attention, le programme se comporte mal avec des nombres trop grand d'équipe, privilégiez un nombre d'équipe inferieur à 20% des joueurs -> j'espère fix ça plus tard).
-`exportResult` : <\bool> True si on veut que le json soit exporté à l'endroit indiqué.
-`exportPath` : <\string> Chemin où sera généré le json contenant les équipes.
-`priviledgeEquity` : <\bool> Si true, privilégie une répartition des build weight plus équitable. Si false, privilégie la sauvegarde des party pour éviter leur séparation.
+`teamCount` : <\int> Nombre d'équipes désiré (attention, le programme se comporte mal avec des nombres trop grand d'équipe, privilégiez un nombre d'équipe inferieur à 20% des joueurs -> j'espère fix ça plus tard).</br>
+`exportResult` : <\bool> True si on veut que le json soit exporté à l'endroit indiqué.</br>
+`exportPath` : <\string> Chemin où sera généré le json contenant les équipes.</br>
+`priviledgeEquity` : <\bool> Si true, privilégie une répartition des build weight plus équitable. Si false, privilégie la sauvegarde des party pour éviter leur séparation.</br>
 
 #### Input data structure
 
